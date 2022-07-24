@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.b127bac1.css",
-    "main.js": "/my-portfolio/static/js/main.c586c5b1.js",
-    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/bg1.jpg": "/my-portfolio/static/media/bg1.90d0ffcfe812001cf9ad.jpg",
-    "static/media/Vidyadheesh-Resume.pdf": "/my-portfolio/static/media/Vidyadheesh-Resume.d0240d481c6da0c9cd06.pdf",
-    "index.html": "/my-portfolio/index.html",
-    "main.b127bac1.css.map": "/my-portfolio/static/css/main.b127bac1.css.map",
-    "main.c586c5b1.js.map": "/my-portfolio/static/js/main.c586c5b1.js.map",
-    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.24cf30b0.css",
+    "main.js": "/portfolio/static/js/main.8be02382.js",
+    "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/bg1.jpg": "/portfolio/static/media/bg1.90d0ffcfe812001cf9ad.jpg",
+    "static/media/Vidyadheesh-Resume.pdf": "/portfolio/static/media/Vidyadheesh-Resume.d0240d481c6da0c9cd06.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.24cf30b0.css.map": "/portfolio/static/css/main.24cf30b0.css.map",
+    "main.8be02382.js.map": "/portfolio/static/js/main.8be02382.js.map",
+    "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b127bac1.css",
-    "static/js/main.c586c5b1.js"
+    "static/css/main.24cf30b0.css",
+    "static/js/main.8be02382.js"
   ]
 }
