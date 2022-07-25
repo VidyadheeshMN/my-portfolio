@@ -1,3 +1,9 @@
+.custom-p {
+  font-size: larger;
+  color: white;
+  text-align: justify;
+}
+
 .project-section {
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -5,7 +11,6 @@
 }
 
 .grid-container {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-row-gap: 1%;
@@ -16,9 +21,14 @@
   .grid-container {
     grid-template-columns: 1fr;
   }
+
+  .custom-p {
+    font-size: 20px;
+  }
 }
 
 .grid-item {
   padding: 1%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  max-height: 100%;
 }

@@ -32,6 +32,7 @@ export default function Projects() {
         "The IoT part was done using various sensors such as pH sensor, light sensor, humidity sensor, temperature sensor and conductivity sensor. The values from these sensors were sent to blynk cloud using Arduino IDE with Esp8266 wifi development board and the mobile application would do an API call to the cloud and display the values and crop prediction with an interactive UI.",
       ],
       technologies: ["Kotlin", "XML", "Blynk Cloud", "IoT"],
+      link: "https://github.com/VidyadheeshMN/SoilNutrientMonitor",
     },
     {
       location: "College",
@@ -41,21 +42,23 @@ export default function Projects() {
         "Used local storage for saving all the event details as JSON",
       ],
       technologies: ["React", "Javascript", "CSS"],
+      link: "https://github.com/VidyadheeshMN/Scheduler",
     },
     {
       location: "College",
       title: "Real-time location tracker",
       content: [
-        "built android application using java, Rest API and retrofit2 which tracks location of a friend in real time using Google maps API and Google Login facility",
+        "Built android application using java, Rest API and retrofit2 which tracks location of a friend in real time using Google maps API and Google Login facility",
         "Supported friend requests, meaning location could be tracked only if a person was added as a friend",
       ],
       technologies: ["Java", "Rest API", "XML"],
+      link: "https://github.com/VidyadheeshMN/realtimelocationtracking",
     },
     {
       location: "College",
       title: "Order Management System",
       content: [
-        "built a very simple Java Swing application which tracked orders in a store and displayed number of items present in the warehouse of different categories and number of items sold for the present day and the profits, used MySQL for storing data",
+        "Built a basic Java Swing application which tracked orders in a store and displayed number of items present in the warehouse of different categories and number of items sold for the present day and the profits, used MySQL for storing data",
       ],
       technologies: ["Java", "Swing", "MySQL"],
     },
@@ -63,10 +66,10 @@ export default function Projects() {
 
   return (
     <Container className='project-section'>
-      <Row style={{ marginTop: "4%" }}>
+      <div style={{ marginTop: "4%" }}>
         <h2>Here are a list of all the projects that i have worked on</h2>
-      </Row>
-      <Row>
+      </div>
+      <div>
         <h3 style={{ textAlign: "left", marginTop: "3%" }}>In Company</h3>
         <div className='grid-container'>
           {projects
@@ -77,19 +80,24 @@ export default function Projects() {
               </div>
             ))}
         </div>
-      </Row>
-      <Row>
+      </div>
+      <div>
         <h3 style={{ textAlign: "left", marginTop: "5%" }}>In College</h3>
         <div className='grid-container'>
           {projects
             .filter((e) => e.location === "College")
             .map((e, i) => (
               <div key={i} className='grid-item'>
-                <ProjectCard content={e.content} technologies={e.technologies} title={e.title} />
+                <ProjectCard
+                  content={e.content}
+                  technologies={e.technologies}
+                  title={e.title}
+                  link={e.link ? e.link : null}
+                />
               </div>
             ))}
         </div>
-      </Row>
+      </div>
     </Container>
   );
 }
