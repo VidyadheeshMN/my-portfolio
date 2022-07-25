@@ -1,3 +1,9 @@
 p {
   font-size: 25px;
 }
+
+.home-container {
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+  width: 100%;
+}

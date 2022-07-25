@@ -1,0 +1,19 @@
+p {
+  font-size: larger;
+  color: white;
+  text-align: justify;
+}
+
+.custom-card {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  margin: 2%;
+}
+
+.custom-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: xx-large;
+  text-align: left;
+  margin-left: 0%;
+}

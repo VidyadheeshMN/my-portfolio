@@ -7,7 +7,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <Container style={{ background: "rgba(0,0,0,0.05)", width: "100%" }}>
+    <Container className='home-container'>
       <Row style={{ padding: "3%" }}>
         <h1>
           Hi!
@@ -20,7 +20,7 @@ export default function Home() {
         <br />
         <br />
         <h1>This is VIDYADHEESH M N</h1>
-        <div style={{ padding: 50, textAlign: "center" }}>
+        <div style={{ padding: 50, textAlign: "left" }}>
           <Type />
         </div>
       </Row>
