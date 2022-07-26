@@ -1,8 +1,19 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
+import { Container, Row, Col, CardGroup, Card } from "react-bootstrap";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Type from "../TypeWriter";
+import {
+  Vue,
+  CSharp,
+  AndroidStudio,
+  Javascript,
+  LogoReact,
+  Redux,
+  XAML,
+  VisualStudio,
+  VisualStudioCode,
+} from "../../Assets/images";
 import "./Home.css";
 
 export default function Home() {
@@ -35,6 +46,58 @@ export default function Home() {
               C#, XAML, React and Javascript.
             </p>
             <p>I have keen interest in automation as well.</p>
+          </div>
+        </div>
+      </Row>
+      <Row style={{ marginTop: "15%", padding: "3%" }}>
+        <div style={{ textAlign: "left" }}>
+          <h3>Programming Languages and Frameworks I work on</h3>
+
+          <div className='container-fluid mt-5'>
+            <div className='row'>
+              <div className='col'>
+                <img
+                  src={LogoReact}
+                  alt='ReactJS'
+                  style={{ objectFit: "cover", width: "calc( 100% / 6 )" }}
+                />
+              </div>
+              <div className='col'>
+                <img
+                  src={Javascript}
+                  alt='Javascript'
+                  style={{ objectFit: "cover", width: "calc( 100% / 6 )" }}
+                />
+              </div>
+              <div className='col'>
+                <img
+                  src={Redux}
+                  alt='Redux'
+                  style={{ objectFit: "cover", width: "calc( 100% / 6 )" }}
+                />
+              </div>
+              <div className='col'>
+                <img
+                  src={Vue}
+                  alt='ReactJS'
+                  style={{ objectFit: "cover", width: "calc( 100% / 6 )" }}
+                />
+              </div>
+              <div className='col'>
+                <img
+                  src={CSharp}
+                  alt='C#'
+                  style={{ objectFit: "cover", width: "calc( 100% / 6 )" }}
+                />
+              </div>
+              <div className='col'>
+                <img
+                  src={XAML}
+                  alt='XAML'
+                  style={{ objectFit: "cover", width: "calc( 100% / 6 )" }}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </Row>
