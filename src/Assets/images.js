@@ -1,5 +1,5 @@
 import Vue from "./LogoVue.png";
-import CSharp from "./LogoC#.png";
+import CSharp from "./LogoCSharp.png";
 import AndroidStudio from "./LogoAndroidStudio.png";
 import Javascript from "./LogoJavascript.png";
 import LogoReact from "./LogoReact.png";
