@@ -7,10 +7,13 @@ import Redux from "./LogoRedux.png";
 import VisualStudio from "./LogoVisualStudioPurple.png";
 import VisualStudioCode from "./LogoVisualStudioCode.png";
 import XAML from "./LogoXAML.png";
+import LogoNpm from "./LogoNpm.png";
+import LogoCSharp from "./LogoCSharp.svg";
 
 export {
   Vue,
   CSharp,
+  LogoCSharp,
   AndroidStudio,
   Javascript,
   LogoReact,
@@ -18,4 +21,5 @@ export {
   XAML,
   VisualStudio,
   VisualStudioCode,
+  LogoNpm,
 };

@@ -7,3 +7,33 @@ p {
   color: white !important;
   width: 100%;
 }
+
+.img-center-tech {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  width: calc(100% / 2.3);
+}
+
+.img-center-tools {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  width: calc(100% / 4);
+}
+
+@media only screen and (max-width: 650px) {
+  .img-center-tech {
+    width: 100%;
+  }
+
+  .img-center-tools {
+    width: calc(100% / 1.5);
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-size: medium !important;
+  }
+}
