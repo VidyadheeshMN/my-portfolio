@@ -25,6 +25,15 @@ export default function Projects() {
       technologies: ["Javascript", "React", "Redux", "CSS"],
     },
     {
+      location: "Company",
+      title: "Document Editor",
+      content: [
+        "Improved on an existing git repository 'vue-document-editor' and created custom functions in the toolbar to insert, delete or wrap any selected text in an editor with the required HTML, was made into a library and linked in the react application",
+        "Experimentally used in Contract Automation and Management project as the main editor for Contract Template creation and management",
+      ],
+      technologies: ["Javascript", "Vue", "CSS"],
+    },
+    {
       location: "College",
       title: "Crop Predictor",
       content: [

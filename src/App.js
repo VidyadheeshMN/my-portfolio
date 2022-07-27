@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Home from "./Components/Home/Home";
 import Resume from "./Components/Resume/Resume";
 import NavBar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,6 +24,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='*' element={<Navigate to='/' />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
